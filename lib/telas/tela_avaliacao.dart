@@ -31,8 +31,7 @@ class _TelaAvalicaoState extends State<TelaAvalicao> {
 
   _body() {
     return Center(
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
+      child: ListView(
         children: [
           _caixa(_caixaNome()),
           _caixa(_caixaPeso()),
